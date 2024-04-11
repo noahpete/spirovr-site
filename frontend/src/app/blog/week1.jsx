@@ -28,12 +28,12 @@ const Week1 = () => {
         <h3 className="text-lg my-2">Spirometer Design</h3>
         <p>This week was mainly focused on the hardware side of our project. In order for our project to function, we needed access to a digital spirometer. These are pricey, so we decided to go the custom hardware route. None of us have much experience with custom circuit design, so the first step of this was to get familiar with microcontrollers. For this project, we used an Arduino Nano (shoutout to Téa’s housemate, Dev, who let her borrow the circuitry needed to get the project rolling— it would have been impossible to do it without them!!).</p>&nbsp;
         <p>We managed to get a device working this week that reads air pressure in pascals. Ideally, we need to convert this pressure unit into a volume unit, to measure lung capacity like a true spirometer, but a pressure measurement should work for now.</p>&nbsp;
-        <Image className="mt-4" src={Diagram}/>
+        <Image className="mt-4" src={Diagram} alt="Arduino diagram"/>
         <p className="text-center text-xs text-gray-400 mb-4">The reference circuit we used for our implementation.</p>
         <p>Below is the circuit we came up with in the end. Note we did not include some of the components shown in the above diagram, as we really only needed the data output from the pressure sensor, and not any of the bells and whistles. Most of the components of this circuit are borrowed, but the vital component of this project is the differential pressure sensor, the MPX5010DP pressure sensor, which had to be bought online.</p>
-        <Image className="shadow-sm my-4" src={Arduino}/>
+        <Image className="shadow-sm my-4" src={Arduino} alt="Arduino circuit board"/>
         <p>Finally, we needed to create the mouthpiece for the spirometer to attach to the pressure sensor. A typical spirometer has an intricate mouthpiece designed for accuracy of measurement. Due to cost limitations, we did not have a super intricate design. The mouthpiece ended up being two nested PVC pipes with vinyl tubing attached to the two ends of the PVC tube.</p>
-        <Image className="shadow-sm my-4" src={MouthPiece} />
+        <Image className="shadow-sm my-4" src={MouthPiece} alt="Mouth piece"/>
         <p className="text-center text-xs text-gray-400 mb-4">Our current mouthpiece design.</p>
         &nbsp;
 

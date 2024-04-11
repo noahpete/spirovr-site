@@ -33,7 +33,7 @@ export default function Home() {
           <b>SpiroVR</b> is a collection of engaging mini games that act to enhance
           the patient experience when completing spirometry tests. It utilizes
           an arduino coupled with a spirometer sensor to obtain differential
-          pressure data corresponding to the user's lung volume. SpiroVR allows
+          pressure data corresponding to the user&apos;s lung volume. SpiroVR allows
           patients to become enveloped in a virtual world with engaging tasks that
           require the user to perform actions mirroring a spirometry test. By doing
           this, patients are distracted from the potentially stressful medical
@@ -46,7 +46,7 @@ export default function Home() {
         <Grid container columns={{ xs: 1, md: 2 }} rowSpacing={4} rowGap={true} columnGap={true} columnSpacing={4} className="pl-8">
           <Grid item xs={0.99} className="flex bg-white p-4 rounded-sm shadow-sm">
             <Link href={"/"}>
-              <Image className="-ml-4" src={Arduino}/>
+              <Image className="-ml-4" src={Arduino} alt="Arduino"/>
             </Link>
             <p>
               We use an <b>Arduino</b> coupled with a spirometer sensor to retrive differential pressure data which can then be used to determine lung volume.
@@ -54,7 +54,7 @@ export default function Home() {
           </Grid>
           <Grid item xs={0.99} className="flex bg-white p-4 rounded-sm shadow-sm">
             <Link href={"/"}>
-              <Image className="w-72 -ml-4" src={MPX}/>
+              <Image className="w-72 -ml-4" src={MPX} alt="MPX"/>
             </Link>
             <p>
               A <b>MPX5010DP</b> pressure sensor is the crucial compoent of the spirometer. It allows us to measure air pressure differentials, which can then be used to estimate lung volume.
@@ -62,7 +62,7 @@ export default function Home() {
           </Grid>
           <Grid item xs={0.99} className="flex bg-white p-4 rounded-sm shadow-sm">
             <Link href={"/"}>
-              <Image className="-ml-4" src={Ardity}/>
+              <Image className="-ml-4" src={Ardity} alt="Ardity"/>
             </Link>
             <p>
               <b>Ardity</b> is a Unity Plugin which allows us to connect the arduino & spirometer with Unity VR so that we can utilize sensor data within the application.
@@ -70,7 +70,7 @@ export default function Home() {
           </Grid>
           <Grid item xs={0.99} className="flex bg-white p-4 rounded-sm shadow-sm">
             <Link href={"/"}>
-              <Image className="w-[400px] -ml-4" src={UnityPreview}/>
+              <Image className="w-[400px] -ml-4" src={UnityPreview} alt="Unity preview"/>
             </Link>
             <p>
               We use <b>Unity</b> as the base engine for the VR application. It provides ample customizability and seamless support for external sensors.

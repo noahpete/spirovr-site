@@ -14,11 +14,11 @@ const Week2 = () => {
         {/* App Development */}
         <h3 className="text-lg my-2">App Development</h3>
         <p>To start off the week, we connected the mouthpiece that we constructed last week to our Unity project using Ardity, a plugin that allows the engine to interface with an arduino.</p>&nbsp;
-        <Image className="w-full mb-4" src={SensorDemo} />
+        <Image className="w-full mb-4" src={SensorDemo} alt="Sensor demonstration"/>
         <p>Within our application, we developed a modular and complete menu system that allows for easy customization and templating. The menu options are represented as bubbles, and the user highlights them just by looking, and selects by breathing into the mouthpiece. This menu system will allow us to easily add consistent and intuitive UI elements across minigames in our app.</p>
-        <Image className="w-full my-4" src={MenuDemo} />
+        <Image className="w-full my-4" src={MenuDemo} alt="In-game menu demonstration" />
         <p>We also started prototyping minigames that take advantage of our unique control scheme, including a breathing-based archery mini game, which consists of different rounds of moving targets increasing in distance and speed.</p>&nbsp;
-        <Image className="w-full my-4" src={ArcheryDemo}/>
+        <Image className="w-full my-4" src={ArcheryDemo} alt="Archery mini game demonstration"/>
         <p>Outside of the hardware and the application, the website went through somewhat of a redesign with a new color scheme, layout and “people” tab, listing the members of our group. The website is still incomplete, but is coming together fast!</p>&nbsp;
 
         {/* Social Impact */}
