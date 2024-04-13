@@ -79,12 +79,111 @@ export default function Home() {
         </Grid>
       </div>
 
+      {/* Two cols, one "Personal Plan", "Professional plan", see adobe */}
+      {/* software, device + software, device + software + headset */}
+      {/* Pricing */}
+      <div className="bg-white p-8 mx-12 mb-4">
+        {/* Options */}
+        <div className="flex">
+          <div className="w-1/3 px-4">
+            <h2 className="text-center text-xl"><b>Breath Sensor Bundle</b></h2>
+            <ul>
+              <li>- One time purchase of a <b>SpiroVR Breath Sensor</b> along with <b>SpiroVR</b></li>
+              <li>- Compatible with existing VR headsets</li>
+              <li>- Comes with <b>3 exciting minigames:</b></li>
+              <div className="ml-8">
+                <ul>
+                  <li>- <b>Archery Practice</b></li>
+                  <li>- <b>Wizard Battle</b></li>
+                  <li>- <b>Bubble Blower</b></li>
+                </ul>
+              </div>
+            </ul>
+            <h2 className="text-center text-xl mt-4"><b>$49</b></h2>
+          </div>
+
+          <div className="w-1/3 px-4">
+            <h2 className="text-center text-xl"><b>Breath Sensor Bundle</b></h2>
+            <ul>
+              <li>- One time purchase of <b>SpiroVR</b>, the <b>SpiroVR Breath Sensor</b> and the <b>SpiroVR Headset</b></li>
+              <li>- Comes with <b>3 exciting minigames:</b></li>
+              <div className="ml-8">
+                <ul>
+                  <li>- <b>Archery Practice</b></li>
+                  <li>- <b>Wizard Battle</b></li>
+                  <li>- <b>Bubble Blower</b></li>
+                </ul>
+              </div>
+            </ul>
+            <h2 className="text-center text-xl mt-10"><b>$199</b></h2>
+          </div>
+
+          <div className="w-1/3 px-4">
+            <h2 className="text-center text-xl"><b>Subscription</b></h2>
+            <ul>
+              <li>- A <b>personal, all-inclusive</b> SpiroVR setup in your home. Includes:</li>
+              <div className="ml-8">
+                <ul>
+                  <li>- <b>SprioVR Headset</b></li>
+                  <li>- <b>SprioVR Breath Sensor</b></li>
+                  <li>- <b>Instant access to brand new minigames</b></li>
+                </ul>
+              </div>
+            </ul>
+            <h2 className="text-center text-xl mt-10"><b>$25 / mo</b></h2>
+          </div>
+        </div>
+        <h2 className="text-center mt-4">*Price may vary with insurance.</h2>
+
+        <div className="mt-2">
+          <h2><b>Aree you a hospital?</b> Reach out to our team!</h2>
+          <ul className="ml-8">
+            <li>- Bulk discounts for hospitals purchasing multiple sets</li>
+            <li>- Priority technical support and training for hospital staff</li>
+            <li>- Hospitals can issue SpiroVR to patients as needed</li>
+            <li>- Instant access to all new minigames</li>
+          </ul>
+
+          <form className="mt-4">
+            <div>
+              <label htmlFor="email">Email: </label>
+              <input
+                type="email"
+                id="email"
+                required
+                className="outline"
+              />
+            </div>
+            <div className="mt-2">
+              <label htmlFor="subject">Subject: </label>
+              <input
+                type="text"
+                id="subject"
+                className="outline"
+                required
+              />
+            </div>
+            <div className="mt-2">
+              <label className="" htmlFor="message">Message: </label>
+              <textarea
+                id="message"
+                required
+                className="outline"
+              />
+            </div>
+            <button className="outline p-2" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+
       {/* Dev Log */}
       <div className="px-8 pb-8 text-center">
         <p>
           Want to follow our development? Learn more <Link href={"/blog"}><b>here</b></Link>.
         </p>
       </div>
+
+      
     </main>
   );
 }
