@@ -78,7 +78,11 @@ const Week3 = () => {
           the spirometer. We added a tutorial section (which is missing a video
           tutorial, but is coming soon) which is responsive to breath and cough
           output. This week we introduced a new bowling minigame, as seen in the
-          demo video below.
+          demo video above. The archery mini-game was revised following the
+          playtest, rather than the targets moving all around the user, they now
+          only move within an arc as to not tangle the user within the wires of
+          the headset. Additionally, some animations on the targets and a nice
+          terrain were made for the archery game to better engage the user.
         </p>
         <iframe
           src="https://www.youtube.com/embed/O0kxTyxDa1Y"
@@ -95,6 +99,9 @@ const Week3 = () => {
           patient. In order to aim their breath output, the player must be
           looking directly at the place they want to aim and provide a steady
           stream of air. Without VR, the aim mechanic would be less intuitive.
+          With one of the user’s hands on the breath sensor, a non-VR
+          application would be very limited in its input mechanics and ability
+          to engage the user.
         </p>
         {/* Financial Sustainability */}
         <h3 className="text-lg my-2">Financial Sustainability</h3>
