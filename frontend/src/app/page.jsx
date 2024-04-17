@@ -33,6 +33,14 @@ export default function Home() {
         id="about"
         className="h-1/3 py-16 p-8 md:p-24 text-foreground text-center"
       >
+        <iframe
+          src="https://www.youtube.com/embed/kC9qdszij2I"
+          frameborder="0"
+          allowfullscreen
+          width={600}
+          height={320}
+          className="mx-auto my-4"
+        />
         <p>
           <b>SpiroVR</b> is a collection of engaging mini games that act to
           enhance the patient experience when completing spirometry tests. It
