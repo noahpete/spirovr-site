@@ -16,7 +16,7 @@ const Week3 = () => {
         <h3 className="text-lg my-2">Hardware</h3>
         <p>
           Our showcase is coming up in a week, so it is important that the
-          spirometer device is easily portatble and protected even when handled
+          spirometer device is easily portable and protected even when handled
           by many people. After downsizing the circuit to only its critical
           parts, we constructed a housing for the new device using plexiglass.
         </p>
@@ -45,7 +45,7 @@ const Week3 = () => {
         </div>
         <p>
           For extra sanitization at the showcase, we will be providing every
-          user with their own mouthpiece cover so that no one’s mouths can
+          user with their own mouthpiece cover so that no one&apos;s mouths can
           directly touch the central tube. The vinyl tubing will also be
           completely replaced with every user.
         </p>
@@ -99,7 +99,7 @@ const Week3 = () => {
           patient. In order to aim their breath output, the player must be
           looking directly at the place they want to aim and provide a steady
           stream of air. Without VR, the aim mechanic would be less intuitive.
-          With one of the user’s hands on the breath sensor, a non-VR
+          With one of the user&apos;s hands on the breath sensor, a non-VR
           application would be very limited in its input mechanics and ability
           to engage the user.
         </p>
