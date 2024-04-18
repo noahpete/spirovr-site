@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Typography, Grid } from "@mui/material";
-import ArcheryDemo from "@/assets/archerydemolatest.gif";
+import Demos from "@/assets/darkened.gif";
 import Arduino from "@/assets/arduino-logo.png";
 import Ardity from "@/assets/ardity-logo.png";
 import MPX from "@/assets/mpx.jpeg";
@@ -18,7 +18,7 @@ export default function Home() {
       <div className="h-screen flex items-center justify-center">
         <Image
           className="object-cover h-full w-full"
-          src={ArcheryDemo}
+          src={Demos}
           alt="Splash Image"
           unoptimized
         />
