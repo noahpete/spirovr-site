@@ -69,8 +69,8 @@ const Week3 = () => {
           src="https://www.youtube.com/embed/eNrQgxX8_S4"
           frameborder="0"
           allowfullscreen
-          width={400}
-          height={220}
+          width={600}
+          height={340}
           className="mx-auto my-4"
         />
         <p>
@@ -88,8 +88,8 @@ const Week3 = () => {
           src="https://www.youtube.com/embed/O0kxTyxDa1Y"
           frameborder="0"
           allowfullscreen
-          width={400}
-          height={220}
+          width={600}
+          height={340}
           className="mx-auto my-4"
         />
         {/* VR Emphasis */}
