@@ -8,6 +8,8 @@ import Arduino from "@/assets/arduino-logo.png";
 import Ardity from "@/assets/ardity-logo.png";
 import MPX from "@/assets/mpx.jpeg";
 import UnityPreview from "@/assets/unity-preview.png";
+import HeadsetBundle from "@/assets/spiro-headset-bundle.png";
+import SpiroOnly from "@/assets/spiro-only.png";
 
 export default function Home() {
   return (
@@ -136,6 +138,7 @@ export default function Home() {
             <h2 className="text-center text-xl">
               <b>Breath Sensor Bundle</b>
             </h2>
+            <Image className="max-w-[200px] mx-auto" src={SpiroOnly} />
             <ul>
               <li>
                 - One time purchase of a <b>SpiroVR Breath Sensor</b> along with{" "}
@@ -168,6 +171,7 @@ export default function Home() {
             <h2 className="text-center text-xl">
               <b>Breath Sensor Bundle</b>
             </h2>
+            <Image className="max-w-[200px] mx-auto" src={HeadsetBundle} />
             <ul>
               <li>
                 - One time purchase of <b>SpiroVR</b>, the{" "}
@@ -199,6 +203,7 @@ export default function Home() {
             <h2 className="text-center text-xl">
               <b>Subscription</b>
             </h2>
+            <Image className="max-w-[200px] mx-auto" src={HeadsetBundle} />
             <ul>
               <li>
                 - A <b>personal, all-inclusive</b> SpiroVR setup in your home.
